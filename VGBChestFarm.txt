@@ -102,8 +102,8 @@ function AllowRunServiceBind.OnInvoke(args)
         Icon = "rbxthumb://type=Asset&id=15338990738&w=150&h=150",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "On",
-        Button2 = "Off",
+        Button1 = "Enable",
+        Button2 = "Disable",
     })
 end
 
@@ -127,8 +127,8 @@ CoreGui:SetCore("SendNotification", {
     Icon = "rbxthumb://type=Asset&id=15338990738&w=150&h=150",
     Duration = math.huge,
     Callback = AllowRunServiceBind,
-    Button1 = "On",
-    Button2 = "Off",
+    Button1 = "Enable",
+    Button2 = "Disable",
 })
 task.spawn(function()
     while true and task.wait(.5) do
